@@ -1,0 +1,21 @@
+{% extends 'main/all.html' %}
+
+{% block title %}{{article.title}}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <div class="alert alert-warning">
+            <h1>{{ article.title}}</h1>
+            <p>Категория: {{ article.cat }}</p>
+            {% if item.photo %}
+            <img src="{{el.photo.url}}" alt="" width="250" class="mr-3">
+            {% else %}
+            <img src="https://picsum.photos/seed/picsum/200/150" alt="" class="mr-3">
+            {%endif%}
+            <p>{{article.full_text}}</p>
+            <p>{{article.date}}</p>
+            <a href="{% url 'news-delete' article.id %}" class="btn btn-danger"> Удалить</a>
+            <a href="{% url 'news-update' article.id %}" class="btn btn-info"> Изменить</a>
+        </div>
+    </div>
+{% endblock %}

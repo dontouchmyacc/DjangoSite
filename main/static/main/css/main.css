@@ -1,0 +1,237 @@
+body{
+    background-image: url(https://images.wallpaperscraft.ru/image/single/poezd_gory_art_130351_1920x1080.jpg);
+}
+.ass6{
+    color: #98cf41f5;
+}
+.header {
+    display: flex;
+    background: rgba(0, 0, 0, 0.788);
+    padding: 2.5%;
+    color: rgb(255, 255, 255);
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
+
+.header .logo {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    top: -1px;
+}
+
+.header ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10vw;
+}
+
+.header ul li {
+    color: white;
+    display: block;
+    transition: all.5s ease;
+    text-decoration: none;
+}
+
+.header ul a {
+    text-decoration: none;
+}
+
+.header ul li:hover, .header ul a:hover{
+    color: rgb(13 110 253);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+main .features{
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+main .features h1{font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+.features div {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.alert-warning{
+    clear: both;
+    width: 100%;
+    margin: 20px 10px 10px;
+    color: #000000;
+    background-color: rgba(11, 221, 140, 0.4);
+    border-color: #000000;
+}
+.alert-warning-1{
+    clear: both;
+    width: 100%;
+    margin: 20px 10px 10px;
+    color: #000000;
+    background-image: url(http://ic.pics.livejournal.com/eponim2008/17443609/91484/91484_original.jpg);
+    border-color: #000000;
+
+}
+
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+/* .signup{
+    margin-r: 32%;
+    width: 800px;
+    margin-top: 50px;
+} */
+
+map{
+   font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -1px; 
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.form-wrap {
+    border-radius: 14px;
+    border: 3px solid black;
+    box-shadow: 0px 6px 20px #9c75ee, 0px 51px 69px rgb(23 18 43 / 59%);
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.card-body {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+.post #id_password,
+.post #id_login,
+.signup input,
+.update input,
+.update textarea {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0.541);
+    background-clip: padding-box;
+    border: 1px solid #a7c4e0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.post #id_password:focus,
+.post #id_login:focus,
+.signup input:focus,
+.update input:focus,
+.update textarea:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.br1{
+    border-style: solid;
+    background-color: #86b6fe7a;
+    border-color: #86b7fe;
+    width: 50%;
+    padding: 15px 10px;
+    border-radius: 25px;
+}
+.br2{
+    border-style: solid;
+    background-color: #86b6fe7a;
+    border-color: #86b7fe;
+    border-radius: 25px; 
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.br3{
+    border-style: solid;
+    background-color: #86b6fe7a;
+    border-color: #86b7fe;
+    border-radius: 25px; 
+    padding: 15px 10px;  
+}
+.br2--holder {
+    width: 45%;
+}
+.br1,
+.br2,
+.br3 {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.img1{
+    border-radius: 50%;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+#form .form-group {
+    margin: 0;
+    width: 100%;
+}
+#form .card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+    
+
+@media (min-width: 481px) {
+    .card {
+        max-width: 1000px;
+        /* min-width: 700px; */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 1000px;
+    }
+}
+
