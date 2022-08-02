@@ -203,6 +203,7 @@ map{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+
 .img1{
     border-radius: 50%;
 }
@@ -220,7 +221,16 @@ map{
     width: 100%;
     margin-bottom: 20px;
 }
-    
+.alogin{
+    color: #8bfd0d;
+    text-decoration: underline;
+}
+.alogin:hover{
+    color: rgb(253, 13, 13);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
 
 @media (min-width: 481px) {
     .card {
