@@ -1,2 +1,2 @@
-"# https---github.com-dontouchmyacc-Django-project-" 
-"# django-profile-project" 
+# Get started
+### run this project by "python manage.py runserver" command
