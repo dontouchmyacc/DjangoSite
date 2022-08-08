@@ -5,8 +5,12 @@
 {% block content %}
     <div class="features">
         <h1>{{ title }}</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum vitae voluptatibus perferendis officia? Accusamus enim soluta fugit ratione eaque natus, cupiditate nulla asperiores aperiam, temporibus quidem totam ab molestias iusto.</p>
-        <button class="btn btn-danger">Просто нажми</button>
+        <p>На нашем сайте можно постить и смотреть новости всего мира. Так же у нас есть конвертер валют! Но сначала тебе надо зарегистрироваться или войти.</p>
+        <a href="{% url 'account_login'%}">
+            <button type="button" class="btn btn-outline-primary">Войти</button></a>
+        <a href="{% url 'account_signup' %}">
+            <button type="button" class="btn btn-outline-success"> Регистрация</button></a>
+                
 
     </div>
 {% endblock %}

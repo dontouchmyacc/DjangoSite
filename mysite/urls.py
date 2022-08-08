@@ -10,7 +10,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('news/', include('news.urls')),
-    # path('api/v1/newslist/', ArticlesAPIView.as_view()),
     path('valute/', include('valute.urls')),
     path('accounts/', include('allauth.urls'))
 ] + static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
